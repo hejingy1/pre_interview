@@ -7,7 +7,7 @@ const app = createApp(App);
 app.use(store);
 app.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyBhxa94GfjGZdtqllKjEoF0Uq86RAAeBpo',
+        key: '',
         libraries: "places",
     },
 }).mount('#app')
